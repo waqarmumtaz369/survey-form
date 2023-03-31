@@ -44,7 +44,7 @@
 
       <div class="form-group">
         <label id="number-label" for="exampleInputAge">Age (optional)</label>
-        <input type="number" class="form-control" id="number" aria-describedby="emailHelp" oninput="this.value = this.value.replace(/[^0-9]/g, '')" placeholder="Age">
+        <input type="number" class="form-control" id="number" aria-describedby="emailHelp" min="1" max="5" required placeholder="Age">
       </div>
       
       <div class="form-group">
